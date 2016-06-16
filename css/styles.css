@@ -1,0 +1,293 @@
+/* line 4, C:/Users/K/Desktop/test-task/css/styles.scss */
+body {
+  background-image: url(../img/pattern-basic.png);
+  font-size: 14px;
+  background-size: cover;
+  height: 100%; }
+
+/* line 11, C:/Users/K/Desktop/test-task/css/styles.scss */
+.text-bold {
+  font-weight: 600; }
+
+/* line 15, C:/Users/K/Desktop/test-task/css/styles.scss */
+.hide {
+  display: none; }
+
+/* line 19, C:/Users/K/Desktop/test-task/css/styles.scss */
+header {
+  min-height: 70px;
+  padding: 15px 0; }
+  /* line 23, C:/Users/K/Desktop/test-task/css/styles.scss */
+  header .backup-img {
+    margin: 7px auto; }
+
+/* line 28, C:/Users/K/Desktop/test-task/css/styles.scss */
+.breadcrumbs {
+  background-color: #0aab0a;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px 1px #41732c;
+  margin-bottom: 30px;
+  min-height: 40px;
+  width: 100%; }
+  /* line 36, C:/Users/K/Desktop/test-task/css/styles.scss */
+  .breadcrumbs-list {
+    color: #fff; }
+    /* line 39, C:/Users/K/Desktop/test-task/css/styles.scss */
+    .breadcrumbs-list li {
+      float: left;
+      line-height: 40px; }
+    /* line 44, C:/Users/K/Desktop/test-task/css/styles.scss */
+    .breadcrumbs-list li:last-child {
+      font-weight: 600; }
+    /* line 48, C:/Users/K/Desktop/test-task/css/styles.scss */
+    .breadcrumbs-list a {
+      color: #fff; }
+
+/* line 54, C:/Users/K/Desktop/test-task/css/styles.scss */
+.breadcrumbs-list > li + li:before {
+  content: "\00bb";
+  padding: 0 20px;
+  color: #000;
+  font-weight: 400; }
+
+/* line 62, C:/Users/K/Desktop/test-task/css/styles.scss */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table; }
+
+/* line 67, C:/Users/K/Desktop/test-task/css/styles.scss */
+.clearfix:after {
+  clear: both; }
+
+/* line 71, C:/Users/K/Desktop/test-task/css/styles.scss */
+.tabs {
+  display: inline-block;
+  width: 100%;
+  padding: 0 30px 0 0; }
+  /* line 76, C:/Users/K/Desktop/test-task/css/styles.scss */
+  .tabs-links {
+    margin: 0;
+    position: relative; }
+    /* line 80, C:/Users/K/Desktop/test-task/css/styles.scss */
+    .tabs-links li {
+      float: right;
+      text-align: center;
+      margin: 0 0 -1px 2px;
+      min-width: 110px;
+      min-height: 40px; }
+    /* line 88, C:/Users/K/Desktop/test-task/css/styles.scss */
+    .tabs-links a {
+      border: 1px solid #bfbbbb;
+      border-radius: 3px 3px 0px 0px;
+      background-color: #ededed;
+      color: #000;
+      display: inline-block;
+      font-size: 14px;
+      font-weight: 600;
+      padding: 10px 20px;
+      transition: all linear 0.15s; }
+    /* line 100, C:/Users/K/Desktop/test-task/css/styles.scss */
+    .tabs-links a:hover {
+      background: #a7cce5;
+      text-decoration: none; }
+    /* line 105, C:/Users/K/Desktop/test-task/css/styles.scss */
+    .tabs-links li.active a, .tabs-links li.active a:hover {
+      background-color: #fff;
+      border: 1px solid #bfbbbb;
+      border-bottom-color: transparent; }
+
+/* line 114, C:/Users/K/Desktop/test-task/css/styles.scss */
+.content {
+  background-color: #fff;
+  border: 1px solid #bfbbbb;
+  border-radius: 3px;
+  box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
+  padding: 20px; }
+  /* line 121, C:/Users/K/Desktop/test-task/css/styles.scss */
+  .content .tab {
+    display: none; }
+  /* line 125, C:/Users/K/Desktop/test-task/css/styles.scss */
+  .content .tab.active {
+    display: block; }
+  /* line 129, C:/Users/K/Desktop/test-task/css/styles.scss */
+  .content .new-report {
+    background: url(../img/Annual_DP_Report_2013_header_LP.png) no-repeat;
+    background-size: cover;
+    margin: 0 auto 30px;
+    position: relative;
+    width: 100%;
+    height: 150px; }
+    /* line 137, C:/Users/K/Desktop/test-task/css/styles.scss */
+    .content .new-report-text {
+      color: #fff;
+      margin: 20px 0 0;
+      padding: 57px 0 0;
+      text-align: center; }
+      /* line 143, C:/Users/K/Desktop/test-task/css/styles.scss */
+      .content .new-report-text .top {
+        font-size: 22px;
+        font-weight: 600; }
+      /* line 148, C:/Users/K/Desktop/test-task/css/styles.scss */
+      .content .new-report-text span {
+        color: #f2de27; }
+      /* line 152, C:/Users/K/Desktop/test-task/css/styles.scss */
+      .content .new-report-text .bottom {
+        font-size: 15px; }
+  /* line 158, C:/Users/K/Desktop/test-task/css/styles.scss */
+  .content h1, .content .big-text {
+    font-size: 17px;
+    font-weight: 600; }
+  /* line 163, C:/Users/K/Desktop/test-task/css/styles.scss */
+  .content p, .content ul {
+    font-size: 13px; }
+  /* line 167, C:/Users/K/Desktop/test-task/css/styles.scss */
+  .content li {
+    line-height: 1.5; }
+  /* line 171, C:/Users/K/Desktop/test-task/css/styles.scss */
+  .content .statistics {
+    display: inline-block;
+    width: 58%;
+    margin: 0 0 20px;
+    padding: 0 0 20px 34px; }
+  /* line 178, C:/Users/K/Desktop/test-task/css/styles.scss */
+  .content .video-tab1 {
+    background: url(../img/annual-smb-report.jpg) no-repeat;
+    display: inline-block;
+    height: 137px;
+    margin-top: 5px;
+    position: relative;
+    vertical-align: top;
+    width: 192px; }
+  /* line 188, C:/Users/K/Desktop/test-task/css/styles.scss */
+  .content .look-inside {
+    background: url(../img/hands_on_guide_click.png) no-repeat;
+    position: absolute;
+    bottom: 0;
+    left: -2;
+    height: 50px;
+    width: 100%; }
+  /* line 199, C:/Users/K/Desktop/test-task/css/styles.scss */
+  .content .infografics img {
+    float: left;
+    margin: 10px 75px 0 0; }
+  /* line 204, C:/Users/K/Desktop/test-task/css/styles.scss */
+  .content .infografics img:last-child {
+    margin-right: 0; }
+  /* line 210, C:/Users/K/Desktop/test-task/css/styles.scss */
+  .content .register {
+    background-color: #ededed;
+    border: 7px solid #fff;
+    box-shadow: 0px 0px 14px 0px #8A8787;
+    max-width: 360px;
+    width: 100%; }
+    /* line 217, C:/Users/K/Desktop/test-task/css/styles.scss */
+    .content .register-caption {
+      color: #0aab0a;
+      font-size: 18px;
+      font-weight: 700;
+      padding-top: 10px; }
+    /* line 224, C:/Users/K/Desktop/test-task/css/styles.scss */
+    .content .register form {
+      padding: 0 10px;
+      font-size: 13px; }
+    /* line 230, C:/Users/K/Desktop/test-task/css/styles.scss */
+    .content .register .form-label {
+      width: 35%; }
+      /* line 233, C:/Users/K/Desktop/test-task/css/styles.scss */
+      .content .register .form-label span {
+        color: red;
+        font-size: 18px;
+        line-height: 1.2; }
+    /* line 241, C:/Users/K/Desktop/test-task/css/styles.scss */
+    .content .register .form-input {
+      height: 21px;
+      margin: 0 0 13px 20px;
+      width: 56%; }
+    /* line 247, C:/Users/K/Desktop/test-task/css/styles.scss */
+    .content .register .form-btn {
+      color: #fff;
+      text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15);
+      background-color: #0aab0a;
+      background-image: linear-gradient(#8add6d, #60b044);
+      border: 1px solid #d5d5d5;
+      border-radius: 5px;
+      font-size: 18px;
+      padding: 6px 30px;
+      margin: 20px auto 0;
+      display: inherit; }
+  /* line 262, C:/Users/K/Desktop/test-task/css/styles.scss */
+  .content .video-tab2 {
+    background: url(../img/preview-annual-dp-report.png) no-repeat;
+    display: inline-block;
+    margin-top: 5px;
+    vertical-align: top;
+    width: 151px;
+    height: 214px;
+    position: relative; }
+
+/* line 273, C:/Users/K/Desktop/test-task/css/styles.scss */
+.footer {
+  margin: 20px 0; }
+  /* line 276, C:/Users/K/Desktop/test-task/css/styles.scss */
+  .footer-list {
+    margin-bottom: 20px; }
+    /* line 279, C:/Users/K/Desktop/test-task/css/styles.scss */
+    .footer-list a {
+      color: #000; }
+    /* line 283, C:/Users/K/Desktop/test-task/css/styles.scss */
+    .footer-list li + li:before {
+      content: "|";
+      padding: 0 10px 0 0; }
+
+@media (min-width: 992px) {
+  /* line 294, C:/Users/K/Desktop/test-task/css/styles.scss */
+  .container {
+    width: 950px; } }
+
+@media screen and (max-width: 991px) and (min-width: 767px) {
+  /* line 303, C:/Users/K/Desktop/test-task/css/styles.scss */
+  .breadcrumbs-list li {
+    font-size: 12px; }
+  /* line 308, C:/Users/K/Desktop/test-task/css/styles.scss */
+  .content .register {
+    margin-top: 30px; }
+    /* line 311, C:/Users/K/Desktop/test-task/css/styles.scss */
+    .content .register form {
+      font-size: 12px; }
+      /* line 314, C:/Users/K/Desktop/test-task/css/styles.scss */
+      .content .register form .form-input {
+        margin: 0 0 10px 10px; }
+  /* line 321, C:/Users/K/Desktop/test-task/css/styles.scss */
+  .content .new-report-text .top {
+    font-size: 18px; }
+  /* line 325, C:/Users/K/Desktop/test-task/css/styles.scss */
+  .content .new-report-text .bottom {
+    font-size: 12px; } }
+
+@media screen and (max-width: 768px) {
+  /* line 334, C:/Users/K/Desktop/test-task/css/styles.scss */
+  header img {
+    margin: 0 auto; }
+  /* line 338, C:/Users/K/Desktop/test-task/css/styles.scss */
+  .breadcrumbs-list li {
+    font-size: 12px; }
+  /* line 344, C:/Users/K/Desktop/test-task/css/styles.scss */
+  .content .register {
+    margin-top: 30px; }
+    /* line 347, C:/Users/K/Desktop/test-task/css/styles.scss */
+    .content .register form {
+      font-size: 12px; }
+      /* line 350, C:/Users/K/Desktop/test-task/css/styles.scss */
+      .content .register form .form-input {
+        margin: 0 0 10px 10px; }
+  /* line 356, C:/Users/K/Desktop/test-task/css/styles.scss */
+  .content .statistics {
+    width: 100%; }
+  /* line 361, C:/Users/K/Desktop/test-task/css/styles.scss */
+  .content .new-report-text .top {
+    font-size: 18px; }
+  /* line 365, C:/Users/K/Desktop/test-task/css/styles.scss */
+  .content .new-report-text .bottom {
+    font-size: 12px; } }
+
+/*# sourceMappingURL=styles.css.map */

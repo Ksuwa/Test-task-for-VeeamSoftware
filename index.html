@@ -1,0 +1,142 @@
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>Veem</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"/>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.magnific-popup/1.0.0/magnific-popup.css">
+		<link rel="stylesheet" href="css/styles.css"/>
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<div class="row">
+					<div class="col-lg-7 col-sm-5">
+						<img class="logo-img img-responsive" src="/img/veeam_logo_mdp_52.png">
+					</div>
+					<div class="col-lg-5 col-sm-7">
+						<img class="backup-img img-responsive" src="/img/mdb_n1_backup.png">
+					</div>
+				</div>
+			</header>	
+		</div>
+		<div class="breadcrumbs clearfix">
+			<div class="container">
+				<ol class="breadcrumbs-list list-unstyled">
+					<li><a href="#">White Papers</a></li>
+					<li>Annual Data Protection Report 2013</li>
+				</ol>
+			</div>
+		</div>
+		<div class="container">
+			<div class="tabs clearfix">
+				<ul class="tabs-links list-unstyled clearfix">
+					<li class="active"><a href="#tab1">SMB Edition</a></li>
+					<li><a href="#tab2">Interprize Edition</a></li>
+				</ul>
+			</div>
+			<div class="content">
+				<div class="new-report">
+					<div class="new-report-text">
+						<p class="top">Annual Data Protection Report 2013: <span>Enterprise and SMB Editions</span></p>
+						<p class="bottom">Survey of 500 enterprises and 500 small / medium businesses across USA, UK, Germany and France</p>
+					</div>
+				</div>
+				<div class="row">
+					<div id="tab1" class="tab active">
+						<div class="col-sm-7">
+							<h1>SMB Edition</h1>
+							<p class="big-text">85% of SMBs Experiencing Problems with Backup and Recovery</p>
+							<p class="text-bold">Report shows 55% will change backup tool by 2014</p>
+							<p>Veeam reveals the findings of the recent SMB data protection survey:</p>
+							<div class="video-tab1">
+								<a href="http://www.youtube.com/watch?v=klModGpSKtc" class="popup-youtube video-link">
+									<div class="look-inside"></div>
+								</a>
+							</div>
+							<ul class="statistics">
+								<li>85% of SMBs are experiencing cost-related challenges with backup and recovery, 83% with capability and 80% with complexity</li>
+								<li>67% of the virtual environment is backed-up meaning that almost a third of SMBs’ virtual infrastructure is unprotected</li>
+								<li>More than 1 in 6 (17%) recoveries of backed-up machines cause problems</li>
+								<li>41% of SMBs stated that downtime in the event of an IT failure costs $150,000 or more per hour</li>
+							</ul>
+							<div class="infografics clearfix">
+								<p class="text-bold">Infographics - SMB challenges with data protection in brief</p>
+								<img src="/img/smb_ingographics_web_preview_1_cut.png" class="img-responsive  infografic-left">
+								<img src="/img/smb_ingographics_web_preview_2_cut.png" class="img-responsive infografic-right">
+							</div>
+						</div>
+					</div>
+					<div id="tab2" class="tab">
+						<div class="col-sm-7">
+							<h1>Enterprise Edition</h1>
+							<p class="big-text">CIO study Shows Capability, Complexity and Cost Issues Hampering IT Departments</p>
+							<div class="video-tab2">
+								<a href="http://www.youtube.com/watch?v=klModGpSKtc" class="popup-youtube video-link">
+									<div class="look-inside"></div>
+								</a>
+							</div>
+							<ul class="statistics"><p>Key findings:</p>
+								<li>68% of CIOs feel that their backup and recovery tools will become less effective as the amount of data and servers in their organization grows</li>
+								<li>88% of CIOs experience capability-related challenges with backup and recovery, 87% with cost and 84% with complexity: showing that data protection is still not a simple task</li>
+								<li>58% of CIOs are planning to change their backup tool for virtual environments by 2014</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-5">
+						<div class="register">
+							<p class="register-caption text-center">Register here</p>
+							<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+								<label for="name" class="form-label">First name<span>*</span></label>
+								<input id="name" class="form-input" name="name" type="text" value="" size="30">
+								<label for="name" class="form-label">Last name<span>*</span></label>
+								<input id="name" class="form-input" name="name" type="text" value="" size="30">
+								<label for="email" class="form-label">Business email<span>*</span></label>
+								<input id="email" class="form-input" name="email" type="text" value="" size="30">
+								<label for="company" class="form-label">Company<span>*</span></label>
+								<input id="company" class="form-input" name="company">							
+								<label for="job" class="form-label">Job Title<span>*</span></label>	
+								<select name="job" class="form-input">			
+									<option selected="selected">Select job description</option>
+									<option>Fronend Developer</option>
+									<option>PHP Developer</option>
+								</select>							
+								<label for="country" class="form-label">Country<span>*</span></label>	
+								<select name="country" class="form-input" id="country">			
+									<option selected="selected">Select country</option>
+									<option value="usa">USA</option>
+									<option value="russia">Russia</option>
+									<option value="canada">Canada</option>
+									<option value="brazil">Brazil</option>
+									<option value="uk">UK</option>
+								</select>		
+								<label for="state" class="form-label hide" id="label_state">State<span>*</span></label>	
+								<select name="state" class="form-input hide" id="state">			
+									<option selected="selected">Select state</option>
+									<option>Alabama</option>
+									<option>Alaska</option>
+									<option>Arizona</option>
+									<option>Arkansas</option>
+									<option>California</option>
+								</select>									
+								<button id="submit_button" class="form-btn">Register</button>			
+							</form>						
+						</div>
+					</div>
+				</div>
+			</div>
+		<footer class="footer">
+			<ul class="list-inline footer-list">
+				<li><a href="#">White Papers</a></li>
+				<li><a href="#">Virtualisation Webinars</a></li>
+				<li><a href="#">Product Demos</a></li>
+				<li><a href="#">Contact Sales</a></li>
+			</ul>
+			<p class="text-center">Copyright © 2015 Veeam® Software. <a href="#">Privacy policy</a></p>
+		</footer>
+		</div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-rc1/jquery.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/jquery.magnific-popup/1.0.0/jquery.magnific-popup.min.js"></script>
+		<script src="/js/script.js"></script>
+	</body>
+</html>
