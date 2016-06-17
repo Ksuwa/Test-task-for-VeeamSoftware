@@ -1,10 +1,9 @@
 @import '_variable';
 
-
 body {
 	background-image: url(../img/pattern-basic.png);
-	font-size: $font-size-base;
 	background-size: cover;
+	font-size: $font-size-base;
 	height: 100%;
 }
 
@@ -53,11 +52,10 @@ header {
 
 .breadcrumbs-list>li+li:before {
 	content: "\00bb";
-	padding: 0 20px;
 	color: #000;
 	font-weight: 400;
+	padding: 0 20px;
 }
-
 
 .clearfix:before, .clearfix:after {
 	content: "";
@@ -70,8 +68,8 @@ header {
 
 .tabs {
 	display: inline-block;
-	width: 100%;
 	padding: 0 30px 0 0;
+	width: 100%;
 
 	&-links {
 		margin: 0;
@@ -79,36 +77,35 @@ header {
 			
 		li {
 			float: right;
-			text-align: center;
 			margin: 0 0 -1px 2px;
-			min-width: 110px;
+			text-align: center;
 			min-height: 40px;
+			min-width: 110px;
 		}
 	
 		a {
+			background-color: $c-grey;
 			border: $c-border-content;
 			border-radius: 3px 3px 0px 0px;
-			background-color: $c-grey;
 			color: #000;
 			display:inline-block;
 			font-size: $font-size-base;
-			font-weight:600;
+			font-weight: 600;
 			padding: 10px 20px;
 			transition:all linear 0.15s;
 		}
 		
 		a:hover {
-            background:#a7cce5;
+            background: $c-a-hover;
             text-decoration:none;
         }
 		
 		li.active a, li.active a:hover {
-			background-color:#fff;
+			background-color: #fff;
 			border: $c-border-content;
    			border-bottom-color: transparent;
     	}
-	}
-	
+	}	
 }
 
 .content {
@@ -129,10 +126,10 @@ header {
 	.new-report {
 		background: url(../img/Annual_DP_Report_2013_header_LP.png) no-repeat;
 		background-size: cover;
+		height: 150px;
 		margin: 0 auto 30px;
 		position: relative;
 		width: 100%;
-		height: 150px;
 		
 		&-text{
 			color: #fff;
@@ -170,9 +167,9 @@ header {
 	
 	.statistics {
 		display: inline-block;
-		width: 58%;
 		margin: 0 0 20px;
 		padding: 0 0 20px 34px;
+		width: 58%;
 	}
 	
 	.video-tab1 {
@@ -183,6 +180,16 @@ header {
 		position: relative;
 		vertical-align: top;
 		width: 192px;
+	}
+	
+	.video-tab2 {
+		background: url(../img/preview-annual-dp-report.png) no-repeat;
+		display: inline-block;
+		margin-top: 5px;
+		vertical-align: top;
+		width: 151px;
+		height: 214px;
+		position: relative;
 	}
 	
 	.look-inside {
@@ -203,9 +210,8 @@ header {
 		
 		img:last-child {
 			margin-right: 0;
-		}
-		
-}
+		}	
+	}
 	
 	.register {
 		background-color: $c-grey;
@@ -227,6 +233,7 @@ header {
 		}
 		
 		.form {
+			
 			&-label {
 				width: 35%;
 				
@@ -234,8 +241,7 @@ header {
 					color: red;
 					font-size: $font-size-base + 4;
     				line-height: 1.2;
-				}
-				
+				}	
 			}
 			
 			&-input {
@@ -245,28 +251,18 @@ header {
 			}
 			
 			&-btn {
-				color: #fff;
-				text-shadow: 0 -1px 0 rgba(0,0,0,0.15);
 				background-color: $c-green;
 				background-image: linear-gradient(#8add6d, #60b044);
 				border: 1px solid #d5d5d5;
     			border-radius: 5px;
-				font-size: $font-size-base + 4;
-				padding: 6px 30px;
-				margin: 20px auto 0;
+				color: #fff;
 				display: inherit;
+				font-size: $font-size-base + 4;
+				margin: 20px auto 0;
+				padding: 6px 30px;
+				text-shadow: 0 -1px 0 rgba(0,0,0,0.15);
 			}
 		}
-	}
-	
-	.video-tab2 {
-		background: url(../img/preview-annual-dp-report.png) no-repeat;
-		display: inline-block;
-		margin-top: 5px;
-		vertical-align: top;
-		width: 151px;
-		height: 214px;
-		position: relative;
 	}
 }
 
@@ -293,9 +289,7 @@ header {
 @media (min-width: 992px) {
 	.container {
 		width: 950px;
-	}
-	
-	
+	}	
 }
 
 @media screen and (max-width: 991px) and (min-width: 767px){
@@ -305,6 +299,7 @@ header {
 	}
 	
 	.content {
+		
 		.register {		
 			margin-top: 30px;
 
@@ -318,6 +313,7 @@ header {
 		}
 		
 		.new-report-text {
+			
 			.top {
 				font-size: $font-size-base + 4;
 			}
@@ -329,18 +325,31 @@ header {
 	}
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) and (min-width: 556px){
 	
 	header img {
 		margin: 0 auto;
 	}
 	
-	.breadcrumbs-list li {
-		font-size: 12px;
+	ol.breadcrumbs-list {
+			margin: 0;
+		
+		li {
+			font-size: $font-size-base - 2;
+			line-height: 1.4;
+		}
+	}
+	
+	.tabs-links a {
+		font-size: $font-size-base - 2;
 	}
 	
 	.content {
-	
+		
+		h1 {
+			margin-top: 0;
+		}
+		
 		.register {		
 			margin-top: 30px;
 			
@@ -353,23 +362,26 @@ header {
 			}
 		}
 		
-		.statistics {
-			width: 100%;
-		}
-		
 		.new-report-text {
+			
 			.top {
-				font-size: $font-size-base + 4;
+				font-size: $font-size-base;
 			}
 			
 			.bottom {
-				font-size: $font-size-base - 2;
+				font-size: $font-size-base - 4;
 			}
+		}	
+	}
+}
+
+@media screen and (max-width: 556px) {
+		.content .statistics {
+			margin-top: 15px;
+			width: 100%;
 		}
 		
-		
+	.infografics {
+		margin-bottom: 20px;
 	}
-//	.container {
-//		width: 520px;
-//	}
-	}
+} 
