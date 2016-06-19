@@ -27,7 +27,6 @@ $(document).ready(function() {
 //	Hide/show select option State
 	$('#country').change(function(){
 		var country = $(this).val();
-		console.log('sdfk;df');
 		if(country == 'usa'){
 			$('#state').removeClass('hide');
 			$('#label_state').removeClass('hide');
